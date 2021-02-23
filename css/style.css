@@ -7,10 +7,6 @@ body{
     flex-direction: column;
 }
 
-.btn-float-action{
-    
-}
-
 footer a, nav a{
     text-decoration: none;
     color:  rgb(255, 166, 0);
@@ -20,12 +16,6 @@ nav a:hover{
     color: white;
     transition: color 1s ease;
 }
-
-.btn-wp{
-  
-
-}
-
 
 /* NAVBAR */
 .navbar{
@@ -146,9 +136,6 @@ nav a:hover{
     
 }
 
-    .galery_desktop{
-        
-    }
     .box-img {
         height: 230px;
         overflow: hidden;
@@ -169,18 +156,71 @@ nav a:hover{
             transform: scale(1.1);
         }
 
-
-
-.foto-advogado{
-    position: relative;
-    width: 16rem !important;
-    overflow: hidden;
+.section-mdoff{
+    background-image: url('../img/bg_trab-min.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-    .img-advogado{
-        width: 100%;
 
+    .box-mdoff{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
     }
+    .mdoff-audio{
+        background-color: #20243d;
+        width: 40%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mdoff-outdoor{
+        background-color: #20243d;
+        width: 40%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:first baseline;
+        padding: 2%;
+    }
+    .title-box-mdoff
+    {
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Roboto' , sans-serif; 
+        font-weight: 700;
+       
+    }
+    .title-mdoff{
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Roboto' , sans-serif;
+    }
+
+    .text-desc-mdoff{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Roboto' , sans-serif;
+    }
+
+    .webkit-scrollbar-track{
+        background-color: red;
+    }
+
+
+
 
 
 
